@@ -8,9 +8,9 @@ class Playground {
         const scene = new BABYLON.Scene(engine);
 
         // This creates and positions a free camera (non-mesh)
-        new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, 5, -10), scene);
+        new BABYLON.FreeCamera("camera", new BABYLON.Vector3(0, 5, -10), scene);
 
-        // Setup GUI.
+        // Initialize GUI.
         const gui = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("gui");
 
         // Add a GUI multiline.
