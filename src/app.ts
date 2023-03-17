@@ -1,4 +1,3 @@
-import * as BABYLON from "babylonjs";
 import { Playground } from "./playground";
 
 (() => {
